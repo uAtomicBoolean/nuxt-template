@@ -5,3 +5,22 @@
 * {
   font-family: "Inter", sans-serif;
 }
+
+@layer base {
+  /* Button's class */
+  .btn-base {
+    @apply py-2 px-5 inline-flex items-center gap-x-2 text-sm font-medium rounded-md border border-transparent;
+  }
+
+  .btn-solid {
+    @apply btn-base bg-primary-600 text-white hover:bg-primary-700 focus:outline-none focus:bg-primary-700 disabled:opacity-50 disabled:pointer-events-none;
+  }
+
+  .btn-outline {
+    @apply btn-base !border-gray-200 text-gray-500 hover:border-primary-600 hover:text-primary-600 focus:outline-none focus:border-primary-600 focus:text-primary-600 disabled:opacity-50 disabled:pointer-events-none;
+  }
+
+  .btn-link {
+    @apply btn-base text-primary-600 hover:text-primary-800 focus:outline-none focus:text-primary-800 disabled:opacity-50 disabled:pointer-events-none;
+  }
+}

@@ -7,13 +7,18 @@ export default {
 		'./components/**/*.{ts,tsx,vue}',
 		'./app/**/*.{ts,tsx,vue}',
 		'./src/**/*.{ts,tsx,vue}',
+		'./node_modules/preline/preline.js',
 	],
 	theme: {
 		extend: {
 			colors: {
-				primary: colors.green,
+				primary: colors.red,
 				gray: colors.zinc,
 			},
 		},
 	},
+
+	plugins: [
+		require('preline/plugin'),
+	],
 };

@@ -9,4 +9,6 @@ export default defineNuxtConfig({
 		'@nuxtjs/tailwindcss',
 		'@nuxt/icon',
 	],
+
+	plugins: ['~/plugins/preline.client.ts'],
 });
