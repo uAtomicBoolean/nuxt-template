@@ -7,7 +7,6 @@ export default {
 		'./components/**/*.{ts,tsx,vue}',
 		'./app/**/*.{ts,tsx,vue}',
 		'./src/**/*.{ts,tsx,vue}',
-		'./node_modules/preline/preline.js',
 	],
 	theme: {
 		extend: {
@@ -17,8 +16,4 @@ export default {
 			},
 		},
 	},
-
-	plugins: [
-		require('preline/plugin'),
-	],
 };
