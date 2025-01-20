@@ -4,7 +4,7 @@ export default defineNuxtConfig({
 	compatibilityDate: '2024-07-07',
 
 	modules: [
-		'@nuxtjs/eslint-module',
+		'@nuxt/eslint',
 		'@nuxt/fonts',
 		'@nuxtjs/tailwindcss',
 		'@nuxt/icon',
