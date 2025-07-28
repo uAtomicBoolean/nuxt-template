@@ -9,7 +9,8 @@
     "preview": "nuxt preview"
   },
   "dependencies": {
-    "@nuxt/ui-pro": "^3.3.0",
+    "@nuxt/fonts": "0.11.4",
+    "@nuxt/icon": "1.15.0",
     "caniuse-lite": "^1.0.30001727",
     "nuxt": "^4.0.1",
     "vue": "^3.5.18",
